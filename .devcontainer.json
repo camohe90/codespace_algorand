@@ -24,4 +24,4 @@
     "postStartCommand": "poetry shell"
 
   }
-  }
+
