@@ -15,7 +15,7 @@
       }
     },
     
-    "postCreateCommand": "sh .devcontainer/post-create.sh",
+    "postCreateCommand": "pipx install algokit",
     "postStartCommand": "algokit localnet start"
 
   }
