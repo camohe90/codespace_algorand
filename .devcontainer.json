@@ -16,11 +16,12 @@
     },
     "postCreateCommand": "pipx install algokit",
     "postCreateCommand": "pipx install poetry",
-    "postCreateCommand": "pip install typing-extensions"
+    "postCreateCommand": "pip install typing-extensions",
 
     "postStartCommand": "algokit localnet start",
     "postStartCommand": "poetry init -n",
     "postStartCommand": "poetry add git+https://github.com/algorandfoundation/algokit-utils-py#feat/algorand_client",
     "postStartCommand": "poetry shell"
 
+  }
   }
