@@ -11,7 +11,30 @@
         "label": "indexer"
       },
       "5173": {
+        "label": "vite"{
+    "forwardPorts": [4001, 4002, 8980, 5173],
+    "portsAttributes": {
+      "4001": {
+        "label": "algod"
+      },
+      "4002": {
+        "label": "kmd"
+      },
+      "8980": {
+        "label": "indexer"
+      },
+      "5173": {
         "label": "vite"
+      }
+    },
+    
+    "postCreateCommand": "sh .devcontainer/post-create.sh",
+    "postStartCommand": "algokit localnet start",
+    
+
+  }
+
+
       }
     },
     "postCreateCommand": "pipx install algokit",
