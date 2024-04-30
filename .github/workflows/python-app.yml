@@ -26,6 +26,4 @@ jobs:
        pip install typing-extensions
        poetry init -n
        poetry add git+https://github.com/algorandfoundation/algokit-utils-py#feat/algorand_client
-    - name: Lint with flake8
-      run: |
-        poetry shell
+    
