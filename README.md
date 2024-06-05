@@ -14,7 +14,7 @@ Once you are in the codespace menu (by clicking the green code button) you will 
 
 2: After this you can begin coding in your main.py file to practise interacting with the blockchain (no smart contract needed!)
 
-3: To get started with smart contracts/dapps run the command 'algokit init' to initilise your Algorand project.
+3: To get started with smart contracts/dapps run the command 'algokit init' to initialise your Algorand project.
 
 And thats it! - the rest is your playground. 
 
