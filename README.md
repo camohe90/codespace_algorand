@@ -18,6 +18,10 @@ Once you are in the codespace menu (by clicking the green code button) you will 
 
 And thats it! - the rest is your playground. 
 
+Not sure where to start? This codespace is intended for beginner workshops you can find the code we run through in these workshops here:
+[https://github.com/Ganainmtech/python_algokit_demo](https://github.com/Ganainmtech/python_algokit_demo/blob/main/main.py)
+
+
 # Enjoying the Blockchain Developer experience on Algorand?
 Then its time to move away from virtual codespace enviroments to local enviroments. Please check out the Algorand Developer Docs to find out how to set up your local enviroment (Its easy and takes less then 10 minutes!) 
 
