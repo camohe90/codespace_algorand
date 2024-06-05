@@ -3,6 +3,7 @@ The all in one Algorand Codespace allows you to set up a virtual enviroment with
 
 # How to start a codespace?
 Above the files in the top right corner you will see a green code button
+
 Once pressed you can start a new codespace by clicking the "Create codespace on main"
 
 # How do I enter an old codespace?
@@ -10,7 +11,9 @@ Once you are in the codespace menu (by clicking the green code button) you will 
 
 # How to use the all in one Algorand Codespace?
 1: Once your codespace is fully loaded in run the commmand 'sh algorand_setup.sh' in your terminal
+
 2: After this you can begin coding in your main.py file to practise interacting with the blockchain (no smart contract needed!)
+
 3: To get started with smart contracts/dapps run the command 'algokit init' to initilise your Algorand project.
 
 And thats it! - the rest is your playground. 
