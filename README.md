@@ -1,5 +1,5 @@
 # The all in one Algorand Codespace
-The all in one Algorand Codespace allows you to set up a virtual enviroment with the latest developer tooling to interact with the Algorand blockchain. This includes SDKs like Python to code without smart contracts, and the algokit experience for when you want to practise smart contracts and galore! 
+The all in one Algorand Codespace allows you to set up a virtual enviroment with the latest developer tooling to interact with the Algorand blockchain. This includes SDKs like Python to code without smart contracts, and the algokit experience for when you want to practise smart contracts and dApps! 
 
 # How to start a codespace?
 Above the files in the top right corner you will see a green code button
