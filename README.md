@@ -22,7 +22,7 @@ Not sure where to start? This codespace is intended for beginner workshops you c
 # Enjoying the Blockchain Developer experience on Algorand?
 Then its time to move away from virtual codespace enviroments to local enviroments. Please check out the Algorand Developer Docs to find out how to set up your local enviroment (Its easy and takes less then 10 minutes!) 
 
-Link: https://developer.algorand.org/docs/get-started/algokit/
+Link: [Get started with AlgoKit!](https://developer.algorand.org/algokit/?utm_source=af_employee&utm_medium=social&utm_campaign=algokit_sarajane&utm_content=download&utm_term=EME)
 
 # Join the algodevs community and work with thousands of developers just like you!
 
