@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/57a20768-8292-4cff-a764-cb8173b89ae4
 
 2. Next click the "Create codespace on main".
 
-3. Once your codespace is fully loaded in run the commmand 'sh algorand_setup.sh' in your terminal.
+3. Once your codespace is fully loaded in run the commmand 'sh setup.sh' in your terminal.
 
 4. After this you can begin coding in your main.py file to practise interacting with the blockchain. (no smart contract needed!)
 
