@@ -30,4 +30,4 @@ Algorand Discord: https://discord.com/invite/algorand
 
 Algodevs X(twitter): https://x.com/algodevs
 
-
+[REMINDER: Get started with AlgoKit!](https://developer.algorand.org/algokit/?utm_source=af_employee&utm_medium=social&utm_campaign=algokit_sarajane&utm_content=download&utm_term=EME)
