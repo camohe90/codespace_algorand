@@ -8,7 +8,11 @@ Welcome to the all-in-one Algorand Codespace! This repository is designed to pro
 This is the fastest way to get up and running!
 
 1. **Create a Codespace:**
-   - [![Setup Codespace Video](https://img.youtube.com/vi/SETUP_VIDEO_THUMBNAIL_ID/maxresdefault.jpg)](SETUP_CODESPACE_VIDEO_LINK)
+
+
+https://github.com/user-attachments/assets/1513fd15-b55a-48e5-8b97-ba128a74fe43
+
+
      *Click the image above to watch a quick 15-second video on how to create your Codespace.*
    - Click the green "Code" button at the top right of this page.
    - Select "Create codespace on main".
@@ -43,6 +47,11 @@ Prefer a local environment? Follow these steps:
 #### 🔧 Setup Instructions
 
 1. **Fork & Clone the Repository:**
+
+
+https://github.com/user-attachments/assets/6942cc23-72c1-4d89-a4aa-f2f4fe8fcfe0
+
+
      *Watch this video to see how to fork and clone the repository.*
    - Fork this repository to your GitHub account.
    - Clone the repository to your local machine:
