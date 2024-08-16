@@ -1,33 +1,95 @@
-# The all in one Algorand Codespace
-The all in one Algorand Codespace allows you to set up a virtual enviroment with the latest developer tooling to interact with the Algorand blockchain. This includes languages like Python to code without smart contracts, and the algokit experience for when you want to practise smart contracts and dApps! 
+# The All-in-One Algorand Codespace
 
-https://github.com/user-attachments/assets/57a20768-8292-4cff-a764-cb8173b89ae4
+Welcome to the all-in-one Algorand Codespace! This repository is designed to provide you with everything you need to start developing on the Algorand blockchain, whether you're attending a workshop, completing a challenge, or just exploring on your own.
 
-# How to use the all in one Algorand Codespace?
-1. Above the files in the top right corner click the green code button.
+## 🌟 Quick Start Guide
 
-2. Next click the "Create codespace on main".
+### 🚀 Start with Codespaces
+This is the fastest way to get up and running!
 
-3. Once your codespace is fully loaded in run the commmand 'sh setup.sh' in your terminal.
+1. **Create a Codespace:**
+   - [![Setup Codespace Video](https://img.youtube.com/vi/SETUP_VIDEO_THUMBNAIL_ID/maxresdefault.jpg)](SETUP_CODESPACE_VIDEO_LINK)
+     *Click the image above to watch a quick 15-second video on how to create your Codespace.*
+   - Click the green "Code" button at the top right of this page.
+   - Select "Create codespace on main".
+   - Once your Codespace is fully loaded, run the following command in the terminal:
+     ```bash
+     sh setup.sh
+     ```
 
-4. After this you can begin coding in your main.py file to practise interacting with the blockchain. (no smart contract needed!)
+2. **Start Coding:**
+   - Open the `main.py` file to start coding and interact with the Algorand blockchain (no smart contracts needed).
+   - To start a smart contract/dApp project, run:
+     ```bash
+     algokit init
+     ```
 
-5. To get started with smart contracts/dapps run the command 'algokit init' to initialise your Algorand project.
+3. **Workshop Follow-Along:**
+   - If you're participating in a workshop, the code we’ll be using is available [here](https://github.com/Ganainmtech/python_algokit_demo).
 
-And thats it! - the rest is your playground. 
+4. **Explore on Your Own:**
+   - Use this environment to write your own scripts or modify existing ones.
 
-Not sure where to start? This codespace is intended for beginner workshops you can find the code we run through in those workshops here:
-[https://github.com/Ganainmtech/python_algokit_demo](https://github.com/Ganainmtech/python_algokit_demo/blob/main/main.py)
+### 💻 Advanced Setup for Local Development
 
-# Enjoying the Blockchain Developer experience on Algorand?
-Then its time to move away from virtual codespace enviroments to local enviroments. Please check out the Algorand Developer Docs to find out how to set up your local enviroment (Its easy and takes less then 10 minutes!) 
+Prefer a local environment? Follow these steps:
 
-Link: [Get started with AlgoKit!](https://developer.algorand.org/algokit/?utm_source=af_employee&utm_medium=social&utm_campaign=algokit_sarajane&utm_content=download&utm_term=EME)
+#### 🧰 Prerequisites
 
-# Join the algodevs community and work with thousands of developers just like you!
+- Install Python 3.12 or higher.
+- Install AlgoKit.
+- Install Docker (for running a local Algorand network).
 
-Algorand Discord: https://discord.com/invite/algorand
+#### 🔧 Setup Instructions
 
-Algodevs X(twitter): https://x.com/algodevs
+1. **Fork & Clone the Repository:**
+     *Watch this video to see how to fork and clone the repository.*
+   - Fork this repository to your GitHub account.
+   - Clone the repository to your local machine:
+     ```bash
+     cd [DIRECTORY_OF_YOUR_CHOICE]
+     git clone [FORKED_REPO_URL]
+     ```
 
-[REMINDER: Get started with AlgoKit!](https://developer.algorand.org/algokit/?utm_source=af_employee&utm_medium=social&utm_campaign=algokit_sarajane&utm_content=download&utm_term=EME)
+2. **Open in VSCode:**
+   - Open the repository with your code editor.
+
+3. **Bootstrap Your Project:**
+   - Navigate to the challenge folder.
+   - Run the following command to set up your environment:
+     ```bash
+     algokit project bootstrap
+     ```
+   - This installs dependencies and generates a `.env` file.
+
+4. **Activate Python Virtual Environment:**
+   - Run:
+     ```bash
+     poetry shell
+     ```
+   - The virtual environment will automatically activate the next time you open the project.
+
+## 🎓 Workshop Challenges
+
+If you’re taking part in a workshop challenge, follow these steps:
+
+1. **Live coding follow along:** 
+   - Complete the task provided during the workshop.
+
+2. **Submit Your Answer:**
+   - Push your changes to your forked GitHub repository.
+   - Create a Pull Request (PR) to the original repository.
+   - In your PR, include:
+     - What your script achieves.
+
+## 📚 Additional Resources
+
+- **Level Up:** Move to a local development environment when you're ready! Check out the [AlgoKit Landing Page](https://developer.algorand.org/algokit/?utm_source=af_employee&utm_medium=social&utm_campaign=algokit_sarajane&utm_content=download&utm_term=EME) for a quick setup guide.
+- **Join the Community:**
+  - [![Join Algorand Discord](https://img.shields.io/discord/discord_channel_id?logo=discord)](https://discord.com/invite/algorand)
+  - [![Follow Algodevs on Twitter](https://img.shields.io/twitter/follow/algodevs?style=social)](https://x.com/algodevs)
+
+## 🏁 Conclusion
+
+This repository serves as both a playground for exploration and a platform for structured learning through workshops and challenges. Whether you're a beginner or an experienced developer, we hope you find this environment useful and engaging. Happy coding!
+
