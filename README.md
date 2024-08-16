@@ -7,31 +7,48 @@ Welcome to the all-in-one Algorand Codespace! This repository is designed to pro
 ### 🚀 Start with Codespaces
 This is the fastest way to get up and running!
 
-1. **Create a Codespace:**
+### 1. **Fork the Repo:**
+
+To create your own copy of this repository:
+
+1. **Go to the GitHub Repository:**
+   - Navigate to the main page which is the current one your on.
+
+2. **Click the "Fork" Button:**
+   - In the top-right corner of the page, click the **Fork** button. This will create a copy of the repository under your GitHub account.
+
+3. **Select Your Account:**
+   - If prompted, select your GitHub account as the destination for the fork.
+
+4. **Wait for the Forking Process to Complete:**
+   - GitHub will take a few moments to create the fork. Once complete, you’ll be redirected to your newly created fork.
+
+
+2. **Create a Codespace:**
 
 
 https://github.com/user-attachments/assets/1513fd15-b55a-48e5-8b97-ba128a74fe43
 
 
      *Click the image above to watch a quick 15-second video on how to create your Codespace.*
-   - Click the green "Code" button at the top right of this page.
+   - Click the green "Code" button at the top right of your forked repo.
    - Select "Create codespace on main".
    - Once your Codespace is fully loaded, run the following command in the terminal:
      ```bash
-     sh setup.sh
+     sh algorand_setup.sh
      ```
 
-2. **Start Coding:**
+3. **Start Coding:**
    - Open the `main.py` file to start coding and interact with the Algorand blockchain (no smart contracts needed).
    - To start a smart contract/dApp project, run:
      ```bash
      algokit init
      ```
 
-3. **Workshop Follow-Along:**
+4. **Workshop Follow-Along:**
    - If you're participating in a workshop, the code we’ll be using is available [here](https://github.com/Ganainmtech/python_algokit_demo).
 
-4. **Explore on Your Own:**
+5. **Explore on Your Own:**
    - Use this environment to write your own scripts or modify existing ones.
 
 ### 💻 Advanced Setup for Local Development
@@ -41,7 +58,7 @@ Prefer a local environment? Follow these steps:
 #### 🧰 Prerequisites
 
 - Install Python 3.12 or higher.
-- Install AlgoKit.
+- Install [AlgoKit](https://developer.algorand.org/algokit/?utm_source=af_employee&utm_medium=social&utm_campaign=algokit_sarajane&utm_content=download&utm_term=EME).
 - Install Docker (for running a local Algorand network).
 
 #### 🔧 Setup Instructions
@@ -80,7 +97,7 @@ https://github.com/user-attachments/assets/6942cc23-72c1-4d89-a4aa-f2f4fe8fcfe0
 
 ## 🎓 Workshop Challenges
 
-If you’re taking part in a workshop challenge, follow these steps:
+If you’re taking part in a workshop challenge you can choose to fork and enter codespace or fork and work locally:
 
 1. **Live coding follow along:** 
    - Complete the task provided during the workshop.
@@ -89,7 +106,7 @@ If you’re taking part in a workshop challenge, follow these steps:
    - Push your changes to your forked GitHub repository.
    - Create a Pull Request (PR) to the original repository.
    - In your PR, include:
-     - What your script achieves.
+     - What your script achieves. (Optional)
 
 ## 📚 Additional Resources
 
