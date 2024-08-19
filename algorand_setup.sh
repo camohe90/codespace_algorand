@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "running"
+echo "Configurando el entorno"
 pipx install poetry
 pip install typing-extensions
 poetry init -n
