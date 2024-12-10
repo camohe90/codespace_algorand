@@ -22,7 +22,7 @@ This is the fastest way to get up and running!
 
 1. **Create a Codespace:**
 
-New mini video incoming!
+**Mini video showecasing how simple it is incoming!**
 
    - Click the green "Code" button at the top right of your forked repo.
    - Select "Create codespace on main".
@@ -42,7 +42,8 @@ New mini video incoming!
    - Use this environment to write your own scripts or modify existing ones.
 
 5. **Smart Contracts and Apps on-chain:**
-   - To start a smart contract/dApp project, run:
+   - To start a smart contract or full stack App project, run:
+   - Note: If you are at this point, I recommend you get AlgoKit locally - codespaces are a premium feture of github and can get deleted!
      ```bash
      algokit init
      ```
@@ -56,38 +57,6 @@ Prefer a local environment? Follow these steps:
 - Install Python 3.12 or higher.
 - Install [AlgoKit](https://developer.algorand.org/algokit/?utm_source=af_employee&utm_medium=social&utm_campaign=algokit_sarajane&utm_content=download&utm_term=EME).
 - Install Docker (for running a local Algorand network).
-
-#### 🔧 Setup Instructions
-
-1. **Fork & Clone the Repository:**
-
-
-https://github.com/user-attachments/assets/6942cc23-72c1-4d89-a4aa-f2f4fe8fcfe0
-
-
-     *Watch this video to see how to fork and clone a repository.*
-   - Fork this repository to your GitHub account.
-   - Clone the repository to your local machine:
-     ```bash
-     cd [DIRECTORY_OF_YOUR_CHOICE]
-     git clone [FORKED_REPO_URL]
-     ```
-
-2. **Open in VSCode:**
-   - Open the repository with your code editor.
-
-3. **Bootstrap Your Project:**
-   - Navigate to the [`main.py`](./main.py) file.
-   - Run the following command to set up your environment for simple scripts:
-     ```bash
-     sh algorand_setup.sh
-     ```
-   - If you are looking into smart contracts and algokit run the following commands:
-     ```bash
-     algokit init
-     algokit project bootstrap
-     ```
-   - This installs dependencies and generates a `.env` file if you are using algokit.
 
 ## 🎓 Workshop Challenges
 
@@ -111,5 +80,5 @@ If you’re taking part in a workshop challenge you can choose to fork and enter
 
 ## 🏁 Conclusion
 
-This repository serves as both a playground for exploration and a platform for structured learning through workshops and challenges. Whether you're a beginner or an experienced developer, we hope you find this environment useful and engaging. Happy coding!
+This repository serves as both a playground for exploration and a platform for structured learning through workshops and challenges. Whether you're a beginner or an experienced developer, I hope you find this environment useful and engaging. Happy coding!
 
