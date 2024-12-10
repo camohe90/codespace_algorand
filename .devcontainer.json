@@ -14,7 +14,7 @@
       "label": "vite"
     }
   },
-  "postCreateCommand": "pip3 install py-algorand-sdk python-dotenv && pipx install algokit",
+  "postCreateCommand": "pip3 install py-algorand-sdk python-dotenv && pipx install algokit && pip install algokit-utils",
   "postStartCommand": "algokit localnet start"
 }
 
