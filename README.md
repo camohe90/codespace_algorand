@@ -22,30 +22,30 @@ This is the fastest way to get up and running!
 
 1. **Create a Codespace:**
 
+New mini video incoming!
 
-https://github.com/user-attachments/assets/1513fd15-b55a-48e5-8b97-ba128a74fe43
-
-
-     *Click the image above to watch a quick 15-second video on how to create your Codespace.*
    - Click the green "Code" button at the top right of your forked repo.
    - Select "Create codespace on main".
-   - Once your Codespace is fully loaded, run the following command in the terminal:
-     ```bash
-     sh algorand_setup.sh
-     ```
+   - Once your Codespace is fully loaded, you are ready to go!
 
 2. **Start Coding:**
    - Open the `main.py` file to start coding and interact with the Algorand blockchain (no smart contracts needed).
+   - If you notice your codespace loaded with a similar error to the screenshot below, no worries! Just run ``` algokit localnet start ```
+
+<img width="570" alt="Screenshot 2024-12-10 at 14 58 16" src="https://github.com/user-attachments/assets/f079d90d-3fa7-45c5-b339-170b7fec772d">
+
+
+3. **Workshop Follow-Along:**
+   - If you're participating in a workshop, the code we’ll be using is available [here](https://github.com/Ganainmtech/python_algokit_demo). Feel free to use this as your experiemntation starting point too, we create an asset!
+
+4. **Explore on Your Own:**
+   - Use this environment to write your own scripts or modify existing ones.
+
+5. **Smart Contracts and Apps on-chain:**
    - To start a smart contract/dApp project, run:
      ```bash
      algokit init
      ```
-
-3. **Workshop Follow-Along:**
-   - If you're participating in a workshop, the code we’ll be using is available [here](https://github.com/Ganainmtech/python_algokit_demo).
-
-4. **Explore on Your Own:**
-   - Use this environment to write your own scripts or modify existing ones.
 
 ## 💻 Advanced Setup for Local Development
 
