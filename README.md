@@ -34,6 +34,7 @@ This is the fastest way to get up and running!
 
 <img width="570" alt="Screenshot 2024-12-10 at 14 58 16" src="https://github.com/user-attachments/assets/f079d90d-3fa7-45c5-b339-170b7fec772d">
 
+ - Lastly the ```main.py``` file is pre-populated with a simple script to quickly set up a local dispenser on the Algorand blockchain. This helps you get started immediately by connecting to the localnet and printing the dispenser address. Run it! ```python main.py``` like any other Python file :)
 
 3. **Workshop Follow-Along:**
    - If you're participating in a workshop, the code we’ll be using is available [here](https://github.com/Ganainmtech/python_algokit_demo). Feel free to use this as your experiemntation starting point too, we create an asset!
