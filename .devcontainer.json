@@ -15,8 +15,10 @@
       }
     },
     
+    "settings": {
+        "python.pythonVersion": "3.12"
+    },
+
     "postCreateCommand": "pipx install algokit",
     "postStartCommand": "algokit localnet start"
-
-  }
-
+}
