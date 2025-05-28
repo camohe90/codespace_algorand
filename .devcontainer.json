@@ -19,6 +19,6 @@
         "python.pythonVersion": "3.12"
     },
     
-    "postCreateCommand": "pipx install algokit && python -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
+    "postCreateCommand": "pipx install algokit && python -m venv venv && venv/bin/pip install --upgrade pip && venv/bin/pip install -r requirements.txt",
     "postStartCommand": "algokit localnet start"
 }
