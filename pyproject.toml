@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "codespace-algorand"
+version = "0.1.0"
+description = ""
+authors = ["Andres Patrignani <andrespatrignani@ksu.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+algokit-utils = {git = "https://github.com/algorandfoundation/algokit-utils-py"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
