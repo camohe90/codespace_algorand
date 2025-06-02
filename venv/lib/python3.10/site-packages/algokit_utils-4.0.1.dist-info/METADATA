@@ -1,0 +1,59 @@
+Metadata-Version: 2.3
+Name: algokit-utils
+Version: 4.0.1
+Summary: Utilities for Algorand development for use by AlgoKit
+License: MIT
+Author: Algorand Foundation
+Author-email: contact@algorand.foundation
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: httpx (>=0.23.1,<=0.28.1)
+Requires-Dist: py-algorand-sdk (>=2.4.0,<3.0.0)
+Requires-Dist: typing-extensions (>=4.6.0)
+Description-Content-Type: text/markdown
+
+# AlgoKit Python Utilities
+
+A set of core Algorand utilities written in Python and released via PyPi that make it easier to build solutions on Algorand.
+This project is part of [AlgoKit](https://github.com/algorandfoundation/algokit-cli).
+
+The goal of this library is to provide intuitive, productive utility functions that make it easier, quicker and safer to build applications on Algorand.
+Largely these functions wrap the underlying Algorand SDK, but provide a higher level interface with sensible defaults and capabilities for common tasks.
+
+> **Note**
+> If you prefer TypeScript there's an equivalent [TypeScript utility library](https://github.com/algorandfoundation/algokit-utils-ts).
+
+[Install](https://github.com/algorandfoundation/algokit-utils-py#install) | [Documentation](https://algorandfoundation.github.io/algokit-utils-py)
+
+## Install
+
+This library can be installed using pip, e.g.:
+
+```
+pip install algokit-utils
+```
+
+## Migration from `v2.x` to `v3.x`
+
+Refer to the [v3 migration](./docs/source/v3-migration-guide.md) for more information on how to migrate to latest version of `algokit-utils-py`.
+
+## Guiding principles
+
+This library follows the [Guiding Principles of AlgoKit](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md#guiding-principles).
+
+## Contributing
+
+This is an open source project managed by the Algorand Foundation.
+See the [AlgoKit contributing page](https://github.com/algorandfoundation/algokit-cli/blob/main/CONTRIBUTING.MD) to learn about making improvements.
+
+To successfully run the tests in this repository you need to be running LocalNet via [AlgoKit](https://github.com/algorandfoundation/algokit-cli):
+
+```
+algokit localnet start
+```
+

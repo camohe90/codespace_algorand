@@ -1,0 +1,22 @@
+{
+    "cSpell.words": [
+        "algod",
+        "algokit",
+        "algorand",
+        "Algorand",
+        "algosdk",
+        "anyio",
+        "certifi",
+        "cffi",
+        "creacion",
+        "DACM",
+        "dotenv",
+        "httpcore",
+        "httpx",
+        "idna",
+        "msgpack",
+        "pycparser",
+        "pycryptodomex",
+        "sniffio"
+    ]
+}
