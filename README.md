@@ -1,5 +1,5 @@
 ### https://lora.algokit.io/testnet/asset/740477265)
-# Enhancing Cross-Border Transactions: Algorand Use in Remittances
+# Transactions: Algorand Use Local
 
 **Asset ID: 740477265** 
 > Cuenta_1 ITRL5DFQH6WF3N7HRMSS64IZSOOW6VOC5KK364GNH753REODWDFWR6MSKU
