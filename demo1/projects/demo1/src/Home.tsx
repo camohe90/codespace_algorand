@@ -23,12 +23,12 @@ const Home: React.FC<HomeProps> = () => {
         <div className="mx-auto max-w-lg w-full rounded-2xl bg-white/90 backdrop-blur shadow-xl p-8 text-center">
           {/* Encabezado */}
           <h1 className="text-4xl font-extrabold tracking-tight text-teal-700">
-            Bienvenidos a <span className="text-teal-900">Masterpass</span> 🎟️
+            Bienvenidos a al mejor demo de 2025 <span className="text-teal-900">Masterpass</span> 🎟️
           </h1>
 
           {/* Descripción corta */}
           <p className="mt-3 text-teal-700/90">
-            Tu boleto para participar en un evento Web3.
+            gracias a Juan
           </p>
 
           {/* Botones principales */}
